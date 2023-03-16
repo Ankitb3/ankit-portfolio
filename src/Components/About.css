@@ -1,0 +1,25 @@
+.about_section{
+    height: 50vh;
+}
+.container{
+    display: flex;
+}
+.second{
+    width: 50%;
+}
+
+@media (min-width:330px) and (max-width:490px) {
+    .container{
+        display: block;
+    }
+    .first h2{
+        text-align: center;
+    }
+    .about_section{
+        height: 100vh;
+    }
+    .second{
+        width: 85%;
+    }
+    
+}

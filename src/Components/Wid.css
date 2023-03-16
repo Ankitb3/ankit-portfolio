@@ -1,0 +1,37 @@
+.wid_container{
+    height: 55vh;
+  background-color: #1a1a1a;
+}
+
+.wid_main img{
+    border-radius: 50%;
+    height: 7rem;
+}
+.wid_main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+   
+}
+
+.wid_main div{
+    margin-top: 3rem;
+}
+
+@media (min-width:330px) and (max-width:490px) {
+    .wid_container{
+        height: 85vh;
+
+    }
+    .wid_main {
+        gap: 10px;
+       
+    }
+    .wid_main img{
+    border-radius: 50%;
+    height: 5rem;
+}
+    .wid_main div{
+        margin-top: 2rem;
+    }
+}
