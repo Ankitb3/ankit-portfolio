@@ -1,7 +1,7 @@
 import React from 'react'
-import About from './Components/About'
-import Home from './Components/Home'
-import Wid from './Components/Wid'
+import About from './Components/About/About'
+import Home from './Components/Home/Home'
+import Wid from './Components/wid/Wid'
 const App = () => {
   return (
     <div>

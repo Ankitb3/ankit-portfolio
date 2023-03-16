@@ -1,7 +1,7 @@
-import React ,{useEffect}from 'react'
+import React from 'react'
 import "./Wid.css"
-import cmp from "../Images/computer.gif"
-import website from "../Images/website.gif";
+import cmp from ".././../Images/computer.gif"
+import website from "../../Images/website.gif";
 
 
 const Wid = () => {
