@@ -6,6 +6,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url
     display: flex;
     justify-content: center;
     align-items: center;
+    
    
 }
 .Home_containt{
@@ -39,4 +40,14 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url
     background-color: #D43F52;
    transition: 0.3s;
    transform: scale(1.1);
+}
+
+@media (min-width:330px) and (max-width:490px) {
+
+.home_container h3{
+    margin-left: 20px;
+}
+.home_container p{
+     margin-left: 20px;
+}
 }

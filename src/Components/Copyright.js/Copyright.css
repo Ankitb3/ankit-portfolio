@@ -1,0 +1,14 @@
+.logos1{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.logos1 img{
+    cursor: pointer;
+}
+
+@media (min-width:330px) and (max-width:490px) {
+  .logos1{
+    gap: 10px;
+  }
+}

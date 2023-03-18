@@ -1,5 +1,5 @@
 .about_section{
-    height: 50vh;
+    height: 60vh;
 }
 .container{
     display: flex;
@@ -7,19 +7,26 @@
 .second{
     width: 50%;
 }
+.first p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+}
 
 @media (min-width:330px) and (max-width:490px) {
     .container{
         display: block;
     }
+    .about_section{
+    overflow-y: hidden;
+    }
     .first h2{
         text-align: center;
     }
     .about_section{
-        height: 100vh;
+        height: 140vh;
     }
     .second{
         width: 85%;
     }
-    
+   
 }

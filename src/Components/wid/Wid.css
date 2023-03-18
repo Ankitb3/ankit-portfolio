@@ -1,5 +1,5 @@
 .wid_container{
-    height: 55vh;
+    height: 65vh;
   background-color: #1a1a1a;
 }
 
@@ -21,6 +21,7 @@
 @media (min-width:330px) and (max-width:490px) {
     .wid_container{
         height: 85vh;
+        overflow-y: hidden;
 
     }
     .wid_main {
